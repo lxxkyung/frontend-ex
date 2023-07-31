@@ -1,28 +1,15 @@
 import React, { useEffect } from 'react';
 
+import {FormInput, Button} from '@components/form'
+
 //로그인 페이지
 const Login = () => {
     return (
         <div>
-          <div>
-            <label htmlFor="username">아이디</label>
-            <input
-              type="text"
-              name="username"
-            />
-          </div>
+          <FormInput name={'username'} label={'아이디'}/>
+          <FormInput name={'password'} label={'패스워드'}/>
     
-          <div>
-            <label htmlFor="password">패스워드</label>
-            <input
-              type="password"
-              name="password"
-            />
-          </div>
-    
-          <button type="button" >
-            로그인
-          </button>
+          <Button btnTit={'로그인'}/>
         </div>
       );
 };
