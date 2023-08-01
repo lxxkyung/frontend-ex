@@ -39,7 +39,12 @@ export const signInFormState = atom({
 });
 
 //signUp state
-export const signUnFormState = atom({
+export const signUpFormState = atom({
     key: 'signUpState',
     default: signUpFormData
 });
+
+export const isAuthenticatedState = atom({
+    key: 'isAuthentication',
+    default: false
+})
