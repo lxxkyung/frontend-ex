@@ -9,9 +9,9 @@ const Main = () => {
     return (
         <MainWrap>
             <h1>Main</h1>
-            <h2>
-                <Link to="/login">로그인</Link>
-            </h2>
+            <Link to="/login">로그인</Link>
+            <Link to="">수강권페이지</Link>
+            <Link to="/reservation">수업예약</Link>
         </MainWrap>
     );
 };
@@ -20,4 +20,9 @@ export default Main;
 
 const MainWrap = styled.div`
     ${LayoutWrap}
+
+    //임시 라벨
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 `;

@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #root {
-    max-width: 750px;
+    width: 100%;
     height: 100vh;
     margin: 0 auto;
     background: #fff;
@@ -56,6 +56,12 @@ const GlobalStyle = createGlobalStyle`
 
   input[disabled] {
     background-color: white;
+  }
+
+  ul,
+  ol,
+  li {
+      list-style: none;
   }
 `;
 

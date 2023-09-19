@@ -6,7 +6,7 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import Router from '@routes';
 
 import GlobalStyle from '@styled/global';
-import Header from '@components/common/Header';
+import { Header, Navigation } from '@components/common';
 
 function App() {
     // Create a client
@@ -20,6 +20,7 @@ function App() {
                     <BrowserRouter>
                         <Header />
                         <Router />
+                        <Navigation />
                     </BrowserRouter>
                 </Suspense>
             </QueryClientProvider>
