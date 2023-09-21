@@ -1,9 +1,10 @@
 import { atom } from 'recoil';
 
 const calendarData = {
-    minDate: '',
+    pageType: '',
+    startDate: new Date(),
+    minDate: new Date(),
     maxDate: '',
-    dateFormat: '',
 };
 
 export const calendarState = atom({
