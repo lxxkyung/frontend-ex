@@ -4,6 +4,6 @@ import { css } from 'styled-components';
 export const LayoutWrap = css`
     width: 100%;
     height: 100vh;
-    padding: 20px;
-    padding-top: 40px;
+    padding: 5vw;
+    padding-top: 10vw;
 `;

@@ -45,5 +45,22 @@ export const CalendarWrap = styled.div`
             background: #3c5087;
             color: #fff;
         }
+
+        /* custom date */
+        .custom-date-cell {
+            position: relative;
+            .icon {
+                display: block;
+                font-size: 0;
+                width: 5px;
+                height: 5px;
+                background: red;
+                border-radius: 50%;
+                position: absolute;
+                bottom: 7px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
     }
 `;
